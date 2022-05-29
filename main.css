@@ -14,6 +14,9 @@
 a {
     text-decoration: none;
 }
+a,p,h1,h2,h3,h4,h5,h6, span {
+    margin: 0;
+}
 h2 {
         font-family: 'Graphik LC TT', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
@@ -24,11 +27,14 @@ h2 {
     text-align: center;
     color: #000000;
 }
+img {
+    position: relative;
+}
 
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     padding: 27px 51px;
     border-bottom: 1px solid #808080;
 }
@@ -149,6 +155,8 @@ h2 {
 .block_header_img {
     max-width: 760px;
     max-height: 530px;
+    width: -webkit-fill-available;
+    width: 100%;
 }
 .coral {
     display: flex;
@@ -231,6 +239,7 @@ h2 {
 .wrapper_main_img {
     max-height: 632px;
     max-width: 632px;
+    width: 100%;
 }
 .lokalise {
     background: #FFF8E4;
@@ -261,6 +270,9 @@ h2 {
     max-width: 160px;
     max-height: 120px;
     padding-bottom: 26px;
+    width: -webkit-fill-available;
+    width: 100%;
+
 }
 .lokalise_img_text h6 {
         font-family: 'Graphik LC TT', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
@@ -384,12 +396,14 @@ h2 {
     color: #000000; 
 }
 .blue_logo img {
-    min-width: 115px;
-    min-height: 25px;
+    max-width: 115px;
+    max-height: 25px;
+    width: 100%;
 }
 .wrapper_blue_img {
     max-width: 310px;
     max-height: 310px;
+    width: 100%;
 }
 .gold {
     background-color: #DABC98;
