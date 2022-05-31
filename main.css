@@ -37,6 +37,7 @@ img {
     align-items: center;
     padding: 27px 51px;
     border-bottom: 1px solid #808080;
+    flex-wrap: wrap;
 }
 .header__logo_nav {
     display: flex;
